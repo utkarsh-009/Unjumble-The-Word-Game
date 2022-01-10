@@ -1,0 +1,17 @@
+########### READ ME ################
+TO PLAY THE GAME:
+
+Click on Unjumble_The_Word_Game.py
+
+GAME GUIDE:
+1.) When you press START, 60 seconds timer starts
+2.) Within 60 seconds try to unjumble words as much as possible.
+
+GAME RULES:
+1.) Game start when you press START or RESTART.
+2.) Time Limit: 60 seconds.
+3.) Press "Enter" or "Check" button to lock your answer.
+4.) For each correct answer: 10 points are awarded.
+5.) After 60 seconds are over, you will receive your final score in message box.
+6.) Press RESTART to play the game again! :) 
+
