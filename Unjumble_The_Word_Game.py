@@ -22,7 +22,8 @@ my_label.place( x = 0 ,  y = 0, relwidth=1, relheight= 1)
 ##################  TIMER #######################################
 running = False
 seconds = 60 #seconds
-score = 0
+score = 00
+
 
 def start():
     global running
@@ -92,15 +93,21 @@ def restart():
         stopwatch_label.after_cancel(update_time)
         running = False
     # pause() 
-    global seconds
+    global seconds, score
     seconds = 60
+    score = 00
     stopwatch_label.config(text= f'{seconds}')
     reset()
+    score_board()
     start()
 
 def score_board():
-    score_label = tkinter.Label(text= 'Score: ' + str(score), font=('Arial', 20))
-    score_label.place(x= 600, y = 65)
+        global score
+        score_label = tkinter.Label(text= 'Score: ' + '     ' , font=('Arial', 20))
+        score_label.place(x= 600, y = 65)
+        score_label = tkinter.Label(text= 'Score: ' + str(score), font=('Arial', 20))
+        score_label.place(x= 600, y = 65)
+
 
 
 ############ Layout #############
@@ -129,8 +136,8 @@ button1.place(x = 500, y = 420,  height= 35, width= 75)
 window.bind('<Return>',lambda event:ans_check())
 
 #########
-timer_label = tkinter.Label(text= 'Score: ' + str(score), font=('Arial', 20))
-timer_label.place(x= 600, y = 65)
+score_label = tkinter.Label(text= 'Score: ' , font=('Arial', 20))
+score_label.place(x= 600, y = 65)
 ######## 
 
 button2 = Button(window, text= "Restart",font= ("Helvetica" , 15), width= 20, command= restart)
