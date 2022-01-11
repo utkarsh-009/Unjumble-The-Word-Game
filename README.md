@@ -39,12 +39,12 @@ Click on Unjumble_The_Word_Game.py
 
 • Start Menu Window
 
-![](image/start-menu.png)
+![](image/start-menu.jpg)
 
 • Game Window
 
-![](image/game-win1.png)
+![](image/game-win1.jpg)
 
 • Final Score
 
-![](image/game-win2.png)
+![](image/game-win2.jpg)
