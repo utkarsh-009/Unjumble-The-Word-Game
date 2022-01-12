@@ -27,7 +27,7 @@ Click on Unjumble_The_Word_Game.py
 
 2.) Time Limit: 60 seconds.
 
-3.) Press "Enter" or "Check" button to lock your answer.
+3.) Press "Enter" or Click "Check" button to lock your answer.
 
 4.) For each correct answer: 10 points are awarded.
 
